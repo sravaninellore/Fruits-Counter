@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.fruits-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.fruit-image {
+  width: 200px;
+  height: auto;
+}
+
+.eat-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.count {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 10px;
+}
